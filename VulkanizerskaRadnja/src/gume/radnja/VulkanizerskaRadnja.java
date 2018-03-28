@@ -16,7 +16,7 @@ public class VulkanizerskaRadnja {
 /**
  * atribut koji predstavlja listu dostupnih guma u radnji
  */
-	private LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
+	LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
 	
 /**
 * metoda za dodavanje nove gume na pocetak liste
@@ -36,6 +36,7 @@ public class VulkanizerskaRadnja {
 /**
  * metoda koja pronalazi gumu na osnovu unetog modela
  * @param markaModel prosledjuje se marka, odnosno model gume koju trazimo
+ * @return null ukoliko posaljemo null vrednost kao parametar
  * @return novaLista lista guma koje odgovaraju upitu
  */
 	public LinkedList<AutoGuma> pronadjiGumu(String markaModel) {
@@ -43,8 +44,11 @@ public class VulkanizerskaRadnja {
 			return null;
 		LinkedList<AutoGuma> novaLista = new LinkedList<AutoGuma>();
 		for (int i = 0; i < gume.size(); i++)
-			if (gume.get(i).equals(markaModel))
+			if (gume.get(i).getMarkaModel().equals(markaModel))
 				novaLista.add(gume.get(i));
+		if(novaLista.isEmpty())
+			return null;
+		else
 		return novaLista;
 	}
 

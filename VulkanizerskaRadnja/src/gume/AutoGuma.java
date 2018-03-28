@@ -1,5 +1,12 @@
 package gume;
 
+/**
+ * 
+ * Klasa AutoGuma sadrzi atribute gume i odgovorajuce set i get metode
+ * @author Andjelija
+ * @version 1.0
+ *
+ */
 public class AutoGuma {
 
 	/**
