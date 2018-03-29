@@ -6,7 +6,7 @@ import gume.AutoGuma;
  * 
  * Klasa VulkanizerskaRadnja sadrzi listu guma i metode za ubacivanje
  * i pronalazenje odgovarajuce gume
- * @author Andjelija
+ * @author Andjelija Skobelev
  * @version 1.0
  *
  */

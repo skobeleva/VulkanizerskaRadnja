@@ -20,7 +20,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Andjelija
+ * @author Andjelija Skobelev
  *
  */
 public class VulkanizerskaRadnjaTest {

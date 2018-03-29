@@ -3,7 +3,7 @@ package gume;
 /**
  * 
  * Klasa AutoGuma sadrzi atribute gume i odgovorajuce set i get metode
- * @author Andjelija
+ * @author Andjelija Skobelev
  * @version 1.0
  *
  */
